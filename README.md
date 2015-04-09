@@ -108,6 +108,6 @@ Oops. Luckily, it's simple:
 
 If, say, you just emailed Bob the Monkey and you want to follow up in a week if he doesn't respond (monkeys are often forgetful). I would add the following task:
 
-    `Waiting to follow-up with Bob. !2 @waiting #inu #f1 #e2 #anytime ^in 1 week 19:00 =25 min https://mail.google.com/mail/u/2/#inbox/24a47b3f94186557`
+    Waiting to follow-up with Bob. !2 @waiting #inu #f1 #e2 #anytime ^in 1 week 19:00 =25 min https://mail.google.com/mail/u/2/#inbox/24a47b3f94186557
 
 It is very important to have a due date when you're waiting, otherwise it will never show up when the day you're waiting for finally arrives! And when I'm waiting on a response, I like to put a link to my email. If you're using Outlook, you can just put the Subject line in your Notes so you can search for it later.

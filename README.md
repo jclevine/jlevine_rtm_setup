@@ -63,7 +63,7 @@ But even putting in each task might seem like a lot! You have to put in all thos
 
 3. After literally about a week or 2, it becomes so rote that it just flows out the fingers without any thinking. It takes me maybe 5 - 10 seconds to put in one task.
 
-4. I steal an idea from the really-complex-system guy above and make an "Error" Smart List, so you know quickly if one of your tasks is missing something vital.
+4. I steal an idea from a [really-complex-system guy](https://www.rememberthemilk.com/forums/tips/8327/) and make an "Error" Smart List, so you know quickly if one of your tasks is missing something vital.
 
 ## WORKFLOW
 

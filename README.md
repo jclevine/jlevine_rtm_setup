@@ -13,7 +13,7 @@ So, what's my system? First let's define which fields I populate and what I popu
 
 Example Quick Add:
 
-    Write RTM system into RTM forum. !1 @internet #iu #f1 #e1 #anytime [optional ^in 1 week 19:00] =1 hr
+    `Write RTM system into RTM forum. !1 @internet #iu #f1 #e1 #anytime [optional ^in 1 week 19:00] =1 hr`
 
 Let's break this down:
 
@@ -39,24 +39,24 @@ I think this is generally straightforward except I will give the possible tags f
 
 1. Quadrant Tags - I add a couple extra non-7-Habits quadrants since I like to differentiate between important (bills, emergencies) and "somewhat" important, which I definitely want to do, but my life won't collapse if I don't get to it.
 
-    iu, inu, siu, sinu, niu, ninu.
+    `iu, inu, siu, sinu, niu, ninu.`
 
 2. Time Window - When can I do this?
 
-    anytime, morning, work, lunch, afternoon, evening
+    `anytime, morning, work, lunch, afternoon, evening`
 
 ### Due Date - Example: `^in 1 week 19:00`
 When things must definitely happen at a specific time. This works particularly well when you have it notify you when things are due via your phone. This field is also very important for @waiting contexts. But again, we'll hear about that soon enough. Use this field sparingly, I think.
 
 ### Estimate - Example: `1 hr`
 Just nice for when you want to do some fun searches. Say you want an easy task that's fun, and you can do within an hour? Simple:
-    tag:f1 AND tag:e3 AND timeEstimate:"< 1 hr"
+    `tag:f1 AND tag:e3 AND timeEstimate:"< 1 hr"`
 
 ## IN DEFENSE OF MY SMART ADD REQUIREMENTS
 But even putting in each task might seem like a lot! You have to put in all those fields and remember each one! I have 4 retorts/comments:
 
 1. At first you keep a little cheat sheet to remind (no pun intended) you each time you add a task to put in all the appropriate fields. Just a little piece of paper or txt file that says something like this:
-  [task] !_ @context #iu/inu/siu/sinu/niu/ninu #f_ #e_ #[time of day] ^[optionally due] =_ minutes/hours
+  `[task] !_ @context #iu/inu/siu/sinu/niu/ninu #f_ #e_ #[time of day] ^[optionally due] =_ minutes/hours`
 
 2. I suggest you add the tags in the same order every time you add a task. That way it becomes easy to make sure you got all of them, which leads to...
 
@@ -95,7 +95,7 @@ That's it! Go have fun and never worry about missing anything ever again! Below 
 
   If this list is really unwieldy, you might even use a fancy, little-known search option "`addedBefore`". So if you search for:
 
-    list:somewhat_important AND addedBefore:"2014-04-08"
+    `list:somewhat_important AND addedBefore:"2014-04-08"`
 
   you'll get some tasks that you made quite some time ago, so maybe you should do something about that.
 
@@ -107,6 +107,6 @@ Oops. Luckily, it's simple:
 
 If, say, you just emailed Bob the Monkey and you want to follow up in a week if he doesn't respond (monkeys are often forgetful). I would add the following task:
 
-    Waiting to follow-up with Bob. !2 @waiting #inu #f1 #e2 #anytime ^in 1 week 19:00 =25 min https://mail.google.com/mail/u/2/#inbox/24a47b3f94186557
+    `Waiting to follow-up with Bob. !2 @waiting #inu #f1 #e2 #anytime ^in 1 week 19:00 =25 min https://mail.google.com/mail/u/2/#inbox/24a47b3f94186557`
 
 It is very important to have a due date when you're waiting, otherwise it will never show up when the day you're waiting for finally arrives! And when I'm waiting on a response, I like to put a link to my email. If you're using Outlook, you can just put the Subject line in your Notes so you can search for it later.

@@ -12,6 +12,7 @@ Below is a copy of the instructions (excluding the ones you no longer need after
 So, what's my system? First let's define which fields I populate and what I populate them with.
 
 Example Quick Add:
+
     Write RTM system into RTM forum. !1 @internet #iu #f1 #e1 #anytime [optional ^in 1 week 19:00] =1 hr
 
 Let's break this down:
@@ -32,7 +33,7 @@ The ever-famous context. Here's a list of the ones I use. I find that everyone h
 But wait! We're just through the contexts! :D
 
 ### Tags - Examples: `#iu, #f1, #e1, #anytime`
-This particular task is a Quadrant-1 (*i*mportant *u*rgent task), it's very *f*un (1 out of 3), it will take great amounts of *e*nergy (1 out of 3 range), and I can do this "any time" during the day or night.
+This particular task is a Quadrant-1 (**i**mportant **u**rgent task), it's very **f**un (1 out of 3), it will take great amounts of **e**nergy (1 out of 3 range), and I can do this "any time" during the day or night.
 
 I think this is generally straightforward except I will give the possible tags for a couple of them:
 
@@ -90,7 +91,7 @@ That's it! Go have fun and never worry about missing anything ever again! Below 
   If you're a diehard 7-Habits Guru, this is your bread and butter. Not necessarily urgent things, but they're really important to you. And yes, again, the really important task due tomorrow shows up. See the pattern here?
 
 5. `4_somewhat_important`
-  Same as `3_important`, but a little less important. This is where the majority of my tasks are (I have 199 tasks of my total 266 tasks sitting in here). It is really important to have this category's tasks appropriately prioritized. Try to only keep a few Priority-1 things that really *are* pretty important things, and maybe even bordering on actually important over somewhat_important, but not quite.
+  Same as `3_important`, but a little less important. This is where the majority of my tasks are (I have 199 tasks of my total 266 tasks sitting in here). It is really important to have this category's tasks appropriately prioritized. Try to only keep a few Priority-1 things that really **are** pretty important things, and maybe even bordering on actually important over somewhat_important, but not quite.
 
   If this list is really unwieldy, you might even use a fancy, little-known search option "`addedBefore`". So if you search for:
 

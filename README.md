@@ -32,6 +32,9 @@ The ever-famous context. Here's a list of the ones I use. I find that everyone h
 
 But wait! We're just through the contexts! :D
 
+#### **WARNING!**
+The RTM API doesn't allow creation of locations/contexts yet so you'll have to create all of these manually -- do that before running the script!
+
 ### Tags - Examples: `#iu, #f1, #e1, #anytime`
 This particular task is a Quadrant-1 (**i**mportant **u**rgent task), it's very **f**un (1 out of 3), it will take great amounts of **e**nergy (1 out of 3 range), and I can do this "any time" during the day or night.
 

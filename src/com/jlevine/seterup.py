@@ -8,6 +8,7 @@ if __name__ == '__main__':
     my_rtm = rtm.createRTM(APIKEY, SHARED_SECRET, TOKEN)
     time = my_rtm.timelines.create()
 
+    # TODO: jlevine - Maybe use dotted-map for consistency with RTM API.
     smart_smartlists = [
         {'name': 'important', 'filter': 'tag:iu OR tag:inu'},
         {'name': 'not_important', 'filter': 'tag:niu OR tag:ninu'},
@@ -35,6 +36,6 @@ if __name__ == '__main__':
     #  if smart_smartlist.name not in all_list_name_set]            # If they don't already exist.
 
     for smart_smartlist in smart_smartlists:
-        does_list_already_exist = smart_smartlist.name in all_list_name_set
+        does_list_already_exist = smart_smartlist['name'] in all_list_name_set
         if not does_list_already_exist:
             my_rtm.lists.add(timeline=time.timeline, **smart_smartlist)

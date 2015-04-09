@@ -13,7 +13,7 @@ So, what's my system? First let's define which fields I populate and what I popu
 
 Example Quick Add:
 
-    `Write RTM system into RTM forum. !1 @internet #iu #f1 #e1 #anytime [optional ^in 1 week 19:00] =1 hr`
+    Write RTM system into RTM forum. !1 @internet #iu #f1 #e1 #anytime [optional ^in 1 week 19:00] =1 hr
 
 Let's break this down:
 
@@ -56,7 +56,8 @@ Just nice for when you want to do some fun searches. Say you want an easy task t
 But even putting in each task might seem like a lot! You have to put in all those fields and remember each one! I have 4 retorts/comments:
 
 1. At first you keep a little cheat sheet to remind (no pun intended) you each time you add a task to put in all the appropriate fields. Just a little piece of paper or txt file that says something like this:
-  `[task] !_ @context #iu/inu/siu/sinu/niu/ninu #f_ #e_ #[time of day] ^[optionally due] =_ minutes/hours`
+
+    [task] !_ @context #iu/inu/siu/sinu/niu/ninu #f_ #e_ #[time of day] ^[optionally due] =_ minutes/hours
 
 2. I suggest you add the tags in the same order every time you add a task. That way it becomes easy to make sure you got all of them, which leads to...
 

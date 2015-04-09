@@ -1,5 +1,6 @@
 import rtm
 
+# TODO: jlevine - Maybe find a way to get these constants dynamically from the user on the command-line.
 APIKEY = ''
 SHARED_SECRET = ''
 TOKEN = ''

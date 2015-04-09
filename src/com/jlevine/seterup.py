@@ -4,11 +4,14 @@ APIKEY = ''
 SHARED_SECRET = ''
 TOKEN = ''
 
+# TODO; jlevine - Move each section into a function.
 if __name__ == '__main__':
     my_rtm = rtm.createRTM(APIKEY, SHARED_SECRET, TOKEN)
     time = my_rtm.timelines.create()
 
     # TODO: jlevine - Maybe use dotted-map for consistency with RTM API.
+
+    general_filter = 'list:important_can_do OR list:not_important_but_due OR list:somewhat_important_can_do'
 
     list_5_error_filter = """
     NOT (
@@ -27,7 +30,7 @@ if __name__ == '__main__':
         {'name': 'important_can_do', 'filter': 'list:important AND NOT list:not_yet'},
         {'name': 'somewhat_important_can_do', 'filter': 'list:somewhat_important AND NOT list:not_yet'},
         {'name': 'not_important_but_due', 'filter': 'list:not_important AND list:due_now'},
-        {'name': 'general', 'filter': 'list:important_can_do OR list:not_important_but_due OR list:somewhat_important_can_do'},
+        {'name': 'general', 'filter': general_filter},
         {'name': '0_due_soon', 'filter': 'dueBefore:"1 week" and list:general'},
         {'name': '1_urgent_important', 'filter': 'tag:iu and list:general'},
         {'name': '2_urgent', 'filter': 'list:general AND (tag:iu OR tag:siu)'},
@@ -48,3 +51,18 @@ if __name__ == '__main__':
         does_list_already_exist = smart_smartlist['name'] in all_list_name_set
         if not does_list_already_exist:
             my_rtm.lists.add(timeline=time.timeline, **smart_smartlist)
+
+    # TODO: jlevine - Uncomment (and verify) when RTM API supports adding locations.
+    #                 Until then, you'll have to do it on your own. :(
+    # TODO: jlevine - Don't try to make duplicate locations.
+    # required_locations = [
+    #     {'address': 'anywhere', 'latitude': '0', 'longitude': '0', 'name': 'anywhere', 'viewable': '1', 'zoom': '9'},
+    #     {'address': 'home', 'latitude': '0', 'longitude': '0', 'name': 'home', 'viewable': '1', 'zoom': '9'},
+    #     {'address': 'internet', 'latitude': '0', 'longitude': '0', 'name': 'internet', 'viewable': '1', 'zoom': '9'},
+    #     {'address': 'out', 'latitude': '0', 'longitude': '0', 'name': 'out', 'viewable': '1', 'zoom': '9'},
+    #     {'address': 'phone', 'latitude': '0', 'longitude': '0', 'name': 'phone', 'viewable': '1', 'zoom': '9'},
+    #     {'address': 'waiting', 'latitude': '0', 'longitude': '0', 'name': 'waiting', 'viewable': '1', 'zoom': '9'},
+    #     {'address': 'work', 'latitude': '0', 'longitude': '0', 'name': 'work', 'viewable': '1', 'zoom': '9'}
+    # ]
+    # for required_location in required_locations:
+    #     my_rtm.locations.add(timeline=time.timeline, **required_location)

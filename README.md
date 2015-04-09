@@ -57,7 +57,7 @@ But even putting in each task might seem like a lot! You have to put in all thos
 
 1. At first you keep a little cheat sheet to remind (no pun intended) you each time you add a task to put in all the appropriate fields. Just a little piece of paper or txt file that says something like this:
 
-    [task] !_ @context #iu/inu/siu/sinu/niu/ninu #f_ #e_ #[time of day] ^[optionally due] =_ minutes/hours
+    `[task] !_ @context #iu/inu/siu/sinu/niu/ninu #f_ #e_ #[time of day] ^[optionally due] =_ minutes/hours`
 
 2. I suggest you add the tags in the same order every time you add a task. That way it becomes easy to make sure you got all of them, which leads to...
 
